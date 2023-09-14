@@ -12,7 +12,13 @@ header{
     color: white;
     height: 40px;
 }
-
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+main .aside-bar{
+    height: 650px;
+}
 footer{
     display: flex;
     justify-content: center;
