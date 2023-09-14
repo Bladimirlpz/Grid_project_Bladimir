@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(54, 54, 157);
     color: white;
     height: 40px;
 }
@@ -17,8 +17,32 @@ main{
     grid-template-columns: 25% 75%;
 }
 main .aside-bar{
-    height: 650px;
+    min-height: 650px;
 }
+.grilla{
+    display: flex;
+}
+
+.grilla .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-size: small;
+    gap: 10px;
+    border: solid 2px black;
+    height: 230px;
+}
+.card img {
+    width: 150px;
+}
+.grilla .card button{
+    width: 140px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
 footer{
     display: flex;
     justify-content: center;
