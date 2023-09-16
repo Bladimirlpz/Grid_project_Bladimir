@@ -20,7 +20,8 @@ header{
     flex-direction: column;
     gap: 20px;
     padding-top: 30px;
-    padding-left: 30px; 
+    padding-left: 50px; 
+    border-right: solid 4px white;
 
 }
 
@@ -42,7 +43,9 @@ header{
     background-color: white;
 }
 .card img {
-    max-width: 230px;
+    height: 250px;
+    width: 200px;
+    
 }
 .grilla .card button{
     background-color: rgb(54, 54, 157);
